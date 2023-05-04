@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #eee;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 5vh;
+}
+
+#header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgb(200, 200, 200);
+    padding: .5vw;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+#logo {
+    width: 30rem;
+    padding: 1rem;
+}
+
+#logo > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+nav > ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style-type: none;
+    padding: 2rem;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    font-family: 'PT Serif', serif;
+}
+
+#formSection {
+
+}
+
+#formSection > h2 {
+    margin-top: 2vh;
+    font-family: 'PT Serif', serif;
+}
+
+#form {
+    margin-top: 2vh;
+    width: 30vw;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 2vh;
+}
+
+#eml {
+    padding: .5vw;
+    width: 11vw;
+}
+
+#submit {
+    padding: .5vh;
+    background-color: #f1c40f;
+}
+
+#content {
+    width: 60vw;
+}
+
+#features {
+    margin-block: 2vh;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 4vh;
+    width: 30vw;
+}
+
+.desc > h2 {
+    font-family: 'PT Serif', serif;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 2vw;
+    width: 60vw;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color: orange;
+  width: 3vw;
+  height: 10vh;
+}
+
+#how-it-works > iframe {
+    height: 40vh;
+    width: 30vw;
+}
+
+#pricing {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 2vw;
+}
+
+.product {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 1vw;
+    border: 1px solid #000;
+    width: 20vw;
+    padding-bottom: 2vh;
+}
+
+.product > p {
+    margin-bottom: 5vh;
+}
+
+.product > button {
+    padding: .5vw;
+    background-color: #f1c40f;
+}
+
+.prodTitle {
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 2vh;
+    width: 100%;
+    font-family: 'PT Serif', serif;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    padding: 2vh;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'PT Serif', serif;
+}
+
+footer > ul {
+    list-style-type: none;
+}
+
+footer > ul > li {
+    margin-bottom: 2vh;
+}
